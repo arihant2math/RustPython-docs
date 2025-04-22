@@ -7,3 +7,4 @@
 - [Interop](interop/index.md)
   - [Calling Rust from Python](interop/rust_from_python.md)
   - [Calling Python from Rust](interop/python_from_rust.md)
+- [Error Handling](error_handling.md)

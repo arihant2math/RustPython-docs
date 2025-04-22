@@ -25,10 +25,9 @@ The tag should be pointed to the latest tag found at https://github.com/RustPyth
 
 ## Features
 By default `threading`, `stdlib`, and `importlib` are enabled.
-### `bz2`
-If you'd like to use the `bz2` module, you can enable the `bz2` feature.
 ### `stdlib`
-`stdlib` is the default feature that enables the standard library.
+`stdlib` is the default feature that enables the standard library,
+parts of the stdlib will still be accessible even if this is disabled.
 ### `sqlite`
 If you'd like to use the `sqlite3` module, you can enable the `sqlite` feature.
 ### `ssl`
@@ -37,4 +36,3 @@ which also lets you install the pip package manager.
 Note that on Windows, you may need to install OpenSSL, or you can enable the ssl-vendor feature instead,
 which compiles OpenSSL for you but requires a C compiler, perl, and make.
 OpenSSL version 3 is expected and tested in CI. Older versions may not work.
-
